@@ -1,0 +1,44 @@
+{
+  "name": "plugline",
+  "description": "Template project for creating a modularized command line tool",
+  "version": "0.0.1",
+  "author": "Dan Lien <dan@danclien.com>",
+  "homepage": "http://github.com/danclien/plugline",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danclien/plugline.git"
+  },
+  "bugs": {
+    "url": "http://github.com/danclien/plugline/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/danclien/plugline/blob/master/LICENSE"
+    }
+  ],
+  "main": "bin/plugline",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+    "commandline",
+    "cli",
+    "tool"
+  ],
+  "dependencies": {
+    "commander": "~2.0.0",
+    "lodash": "~2.2.1",
+    "shelljs": "~0.2.6"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",    
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "should": "~2.0.1"
+  }
+}
