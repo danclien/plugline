@@ -1,1 +1,1 @@
-node "%~dp0\..\src\plugline.js" %*
+@node "%~dp0\..\src\plugline.js" %*
